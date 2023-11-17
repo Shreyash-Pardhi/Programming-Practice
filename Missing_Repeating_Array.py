@@ -19,6 +19,7 @@ def find_missing_and_repeating(nums):
         for i in range(len(nums)):
             if nums[i]!=i+1:
                 ms=i+1
+                break
     return ms,rn
 
 # Example usage
